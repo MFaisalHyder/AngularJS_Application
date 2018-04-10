@@ -1,0 +1,14 @@
+It is a simple Angular JS Application, packaged with Grunt.
+
+AngularJS: [1.6.9] | jQuery: [3.3.1] | Grunt: [1.0.2] | npm: [5.8.0]
+
+Steps:
+1- Install node.js
+2- Install grunt cli: npm install -g grunt-cli
+3- create package.json : npm init
+4- to add dependencies in package.json: npm install <module> 				--save-dev
+										npm install grunt 					--save-dev
+										npm install grunt-contrib-jshint 	--save-dev
+										npm install grunt-contrib-nodeunit 	--save-dev
+										npm install grunt-contrib-uglify 	--save-dev
+5- Now to create Gruntfile.js: simply create it manually in root folder i.e. alongside package.json file.

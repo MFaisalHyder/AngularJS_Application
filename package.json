@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "this is a test application on angular js",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^5.8.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0"
+  },
+  "scripts": {
+    "start": "http-server -a 127.0.0.1 -p 8588",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad Faisal Hyder",
+  "license": "ISC"
+}
