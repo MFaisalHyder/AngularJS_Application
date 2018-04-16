@@ -6,13 +6,14 @@ Steps:
 -----
 1- Install node.js
 2- Install grunt cli: npm install -g grunt-cli
-3- create package.json : npm init
-4- to add dependencies in package.json: npm install <module> 	--save-dev
+3- Create package.json : npm init
+4- In package.json add "start" inside "scripts" object: "start" : "http-server -a <IP/Address> -p <portNumber>"
+5- to add dependencies in package.json: npm install <module> 	--save-dev
 					npm install grunt	--save-dev
 					npm install grunt-contrib-jshint 	--save-dev
 					npm install grunt-contrib-nodeunit 	--save-dev
 					npm install grunt-contrib-uglify 	--save-dev
-5- Now to create Gruntfile.js: simply create it manually in root folder i.e. alongside package.json file.
+6- Now to create Gruntfile.js: simply create it manually in root folder i.e. alongside package.json file.
 
 To Run:
 ------
